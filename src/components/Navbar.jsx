@@ -57,7 +57,7 @@ const Navbar = () => {
             </div>
             <div className="buttons">
               <NavLink to="/cart" className="btn btn-outline-dark ms-2">
-                <i className="fa fa-cart-plus me-1"></i>  Cart({state.length-1}) 
+                <i className="fa fa-cart-plus me-1"></i>  Cart({state.length}) 
                 </NavLink>
             </div>
           
